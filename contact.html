@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="js/app.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a href="index.html" class="logo">Oleh Sushi House</a>
+                    <ul class="nav-list">
+    
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Головна</a>
+                        </li>
+                        
+                        <li class=" nav-item">
+                            <a href="menu.html" class="nav-link">Меню</a>
+                        </li>
+    
+                        <li class=" nav-item">
+                            <a href="contact.html" class="nav-link">Замовлення</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section class = "banner">
+            <h2>Зв'яжіться з нами</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Замовлення</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">День</option>
+                                <option value = "sunday">Неділя</option>
+                                <option value = "monday">Понеділок</option>
+                                <option value = "tuesday">Вівторок</option>
+                                <option value = "wednesday">Середа</option>
+                                <option value = "thursday">Четвер</option>
+                                <option value = "friday">Пятниця</option>
+                                <option value = "saturday">Субота</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Година</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Прізвище та ім'я">
+                            <input type = "text" placeholder="Номер телефону">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="На скільки людей?" min = "1">
+                            <input type = "submit" value = "ЗАМОВИТИ">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+            <footer>
+            <div class="footer__content">     
+                <div class="footer__content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Ми ще тут</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Oleh Sushi House</h4>
+                        <p>вул. Чорновола 12</p>
+                        <p>+380676854675</p>
+                        <p>olegsushi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+    </body>
+</html>
